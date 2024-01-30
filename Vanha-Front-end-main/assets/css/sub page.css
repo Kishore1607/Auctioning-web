@@ -1,0 +1,198 @@
+:root {
+    --primary: #7d8e95;
+    --secondary: #222f30;
+    --tertiary: #ffd8af;
+    --fourth: #f1b194;
+    --fifth: #4c585e;
+}
+
+.body {
+    font-family: "Source Sans Pro", "Helvetica Neue", Arial, sans-serif;
+}
+
+.main {
+    text-align: center;
+}
+
+.border {
+    height: 1%;
+    width: 35%;
+    margin: auto;
+    border: 1.5px solid;
+    border-color: var(--primary);
+}
+
+#cate_name {
+    color: var(--fifth);
+}
+
+.unique {
+    display: none;
+}
+
+.product_img {
+    max-width: 100%;
+    width: 250px;
+    height: 250px;
+    border-radius: 10px;
+}
+
+.card {
+    width: 90%;
+    height: auto;
+    border-radius: 20px;
+    background: #f5f5f5;
+    padding: 10px;
+    border: 2px solid #c3c6ce;
+    transition: 0.5s ease-out;
+
+}
+
+.card-details {
+    color: black;
+    display: grid;
+    place-content: center;
+}
+
+.text-body {
+    display: flex;
+    font-size: 14px;
+    padding-top: 10px;
+}
+
+.text-body span {
+    padding-right: 5px;
+    color: #586468;
+}
+
+.text-title {
+    font-weight: bold;
+}
+
+.card:hover {
+    border-color: var(--primary);
+    background-color: rgb(233, 234, 255);
+    box-shadow: 0 4px 18px 0 rgba(0, 0, 0, 0.25);
+}
+
+#SearchedProductBox{
+    display: grid;
+    grid-template-columns: repeat(4, 300px);
+    justify-content: space-evenly;
+    row-gap: 40px;
+    margin: 50px 0px;
+}
+
+.SearchedProduct h2{
+    width: 200px;
+}
+
+.divisionLine{
+    border-style: solid;
+    border-width: 0px 0px 2px 0px;
+    border-color: var(--primary);
+}
+
+#grid-container {
+    display: grid;
+    grid-template-columns: repeat(4, 300px);
+    justify-content: space-evenly;
+    row-gap: 25px;
+    margin: 50px 0px;
+}
+
+.seller_img {
+	width: 50px;
+	height: 50px;
+	border-radius: 50%;
+	margin-right: 10px;
+}
+
+.sellerInfo {
+    width: 100%;
+    text-align-last: start;
+    display: flex;
+    margin-top: 5px;
+    border-top: 1px solid gray;
+    padding-top: 10px;
+}
+
+.seller_name, .seller_location {
+    width: 200px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.algn {
+    margin-top: 50px;
+}
+
+#result {
+    visibility: hidden;
+    min-width: 250px;
+    height: 40px;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    border-radius: 10px;
+    padding-top: 15px;
+    position: absolute;
+    z-index: 20;
+    left: 40%;
+    top: 100px;
+}
+
+#result.show {
+    visibility: visible;
+    -webkit-animation: fadein 0.5s, fadeout 0.5s 2.5s;
+    animation: fadein 0.5s, fadeout 0.5s 2.5s;
+}
+
+@-webkit-keyframes fadein {
+    from {
+        bottom: 0;
+        opacity: 0;
+    }
+
+    to {
+        bottom: 30px;
+        opacity: 1;
+    }
+}
+
+@keyframes fadein {
+    from {
+        bottom: 0;
+        opacity: 0;
+    }
+
+    to {
+        bottom: 30px;
+        opacity: 1;
+    }
+}
+
+@-webkit-keyframes fadeout {
+    from {
+        bottom: 30px;
+        opacity: 1;
+    }
+
+    to {
+        bottom: 0;
+        opacity: 0;
+    }
+}
+
+@keyframes fadeout {
+    from {
+        bottom: 30px;
+        opacity: 1;
+    }
+
+    to {
+        bottom: 0;
+        opacity: 0;
+    }
+}

@@ -1,0 +1,222 @@
+:root {
+  --primary: #7d8e95;
+  --secondary: #222f30;
+  --tertiary: #ffd8af;
+  --fourth: #f1b194;
+  --fifth: #4c585e;
+}
+
+.body {
+  font-family: "Source Sans Pro", "Helvetica Neue", Arial, sans-serif;
+}
+
+/*------------productdetail------------*/
+.main {
+  display: flex;
+  justify-content: space-evenly;
+  margin: 50px 0px;
+}
+
+.product_img {
+  width: 350px;
+  height: 350px;
+  margin-top: 20px;
+  border-radius: 20px;
+}
+
+.main_left {
+  text-align: center;
+  border-radius: 10px;
+  width: 400px;
+  height: 530px;
+  background-color: whitesmoke;
+  box-shadow: 5px 7px 20px gray;
+}
+
+h1 {
+  margin: 20px 0px 10px 0px;
+  color: var(--secondary);
+}
+
+.rate {
+  height: 40px;
+  display: flex;
+  padding: 15px 0px 0px 30px;
+  float: inline-start;
+}
+
+.inr b {
+  color: var(--primary);
+}
+
+.rate p {
+  padding: 4px 10px 0px 0px;
+  color: var(--fifth);
+}
+
+#prod_price {
+  padding-right: 5px;
+  color: var(--secondary);
+}
+
+.main_right {
+  text-align: center;
+  border-radius: 10px;
+  width: 700px;
+  height: 670px;
+  background-color: whitesmoke;
+  box-shadow: 5px 7px 20px gray;
+}
+
+.main_right h2 {
+  color: white;
+  position: sticky;
+  top: 0;
+  margin: 0px 0px 10px 0px;
+  padding: 20px 0px;
+  background-color: var(--fifth);
+}
+
+.content {
+  margin-top: 0px;
+}
+
+#bid-list {
+  height: 500px;
+  overflow: auto;
+}
+
+.btn {
+  position: relative;
+  bottom: 30px;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0 10px;
+  width: 100%;
+  margin-top: 20px;
+}
+
+thead {
+  border: 1px solid #ccc;
+}
+
+thead th {
+  background-color: #f2f2f2;
+  font-weight: bold;
+  text-align: center;
+  padding: 8px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+td {
+  padding: 8px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  border-bottom: 1px solid #ccc;
+}
+
+th:nth-child(2) {
+  width: 20%;
+  text-align: end;
+}
+
+td:nth-child(3) {
+  width: 20%;
+  text-align: start;
+}
+
+th:nth-child(3) {
+  width: 20%;
+}
+
+th:nth-child(4) {
+  width: 20%;
+}
+
+th:nth-child(5) {
+  width: 35%;
+}
+
+tr:not(:first-child) {
+  margin-top: 10px;
+}
+
+.high1 {
+  background-color: #ACE1FA;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+}
+
+.high2 {
+  background-color: #CBECFC;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+}
+
+.high3 {
+  background-color: #E4F5FD;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+}
+
+.buyer_img {
+  max-width: 60px;
+  max-height: 60px;
+  width: 50px;
+  height: 50px;
+  margin-right: 10px;
+  border-radius: 50%;
+  vertical-align: middle;
+}
+
+.sold {
+  font-size: 35px;
+  margin: 0;
+}
+
+.algn {
+  text-align: center;
+}
+
+.date {
+  font-size: 14px;
+  width: 80px;
+}
+
+.amount {
+  width: 100px;
+}
+
+/* -------------after acept offer----------- */
+
+.img {
+  margin: 20px;
+}
+
+.illuimg {
+  width: 70%;
+}
+
+.right_content {
+  width: 300px;
+  margin: 50px 0px 0px 30px;
+  border-style: solid;
+  border-width: 0px 0px 1px 0px;
+  padding: 0px 20px 10px 0px;
+}
+
+.right_content i {
+  font-size: 20px;
+  padding-right: 20px;
+}
+
+.contact-detail {
+  margin: 55px 0px 0px 20px;
+}
+
+.btn {
+  margin-top: 50px;
+  text-align: center;
+}

@@ -1,0 +1,124 @@
+.body {
+  font-family: "Source Sans Pro", "Helvetica Neue", Arial, sans-serif;
+}
+
+:root {
+  --primary: #7d8e95;
+  --secondary: #222f30;
+  --tertiary: #ffeba7;
+  --fourth: #fdd13f;
+  --fifth: #4c585e;
+}
+
+.form {
+  max-width: 50%;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  font-family: Arial, sans-serif;
+  margin-top: 80px;
+  margin-bottom: 80px;
+}
+
+.align {
+  border-style: solid;
+  border-color: rgb(191, 191, 191);
+  border-width: 2px 0px 2px 0px;
+  padding: 50px 0px;
+}
+
+.divide {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+h1 {
+  text-align: center;
+  border: 0px 0px 1px 0px solid gray;
+}
+
+h4 {
+  margin: 10px 0;
+}
+
+div {
+  margin-bottom: 15px;
+}
+
+input[type="text"],
+input[type="number"],
+textarea,
+select {
+  width: 90%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+
+.duration {
+  width: 150px;
+  margin-left: 10px;
+}
+
+.used {
+  display: flex;
+}
+
+.period {
+  max-width: 30px;
+  height: 16px;
+}
+
+.period::placeholder {
+  padding-left: 5px;
+}
+
+.left-aling {
+  display: flex;
+  align-items: center;
+}
+
+.left_content {
+  margin-right: 10px;
+}
+
+textarea {
+  width: 95%;
+  height: 100px;
+}
+
+.note {
+  padding: 10px;
+  background-color: rgb(244, 244, 244);
+  color: rgb(150, 150, 150);
+  border-radius: 10px;
+}
+
+.note b {
+  color: rgb(110, 110, 110);
+}
+
+.requirement{
+  max-width: 300px;
+  color: rgb(70, 160, 35);
+}
+ol li {
+  padding: 2px;
+  font-size: 15px;
+}
+
+.btn {
+  text-align: center;
+}
+
+.error {
+  color: red;
+}
+
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
