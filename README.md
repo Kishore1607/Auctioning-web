@@ -5,9 +5,9 @@ This main repository serves as an umbrella project containing distinct sub-proje
 ## Repository Structure
 This repository is organized into the following structure:
 
-- `backend/`: Contains the backend services. [Backend README]([backend/README.md](https://github.com/Kishore1607/Auctioning-web/tree/main/Vanha-Back-End-main))
-- `frontend/`: Contains the frontend application. [Frontend README]([frontend/README.md](https://github.com/Kishore1607/Auctioning-web/tree/main/Vanha-Front-end-main))
-- `server/`: Contains the server configuration and management scripts. [Server README]([Vanha-Server-Layer-main](https://github.com/Kishore1607/Auctioning-web/tree/main/Vanha-Server-Layer-main))
+- `backend/`: Contains the backend services. [Backend README](https://github.com/Kishore1607/Auctioning-web/tree/main/Vanha-Back-End-main)
+- `frontend/`: Contains the frontend application. [Frontend README](https://github.com/Kishore1607/Auctioning-web/tree/main/Vanha-Front-end-main)
+- `server/`: Contains the server configuration and management scripts.
 
 ### Explanation
 
